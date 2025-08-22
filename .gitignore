@@ -1,0 +1,15 @@
+# Virtual Environment
+add_env/
+
+# Data folder
+data/
+
+# Trained model files
+*.h5
+
+# Standard Python ignores
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
