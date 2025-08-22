@@ -22,6 +22,8 @@ Automated Defect Detection in Manufacturing/
 |-- app.py                      # Python script for the Gradio web application
 |-- .gitignore                  # Specifies files to be ignored by Git
 |-- README.md                   # This file
+|-- requirements.txt            # Project Dependencies
+
 
 ### Methodology
 1. **Data Preparation:** The model was trained on the NEU Metal Surface Defects Database, which contains 1,800 grayscale images categorized into six classes: Crazing, Inclusion, Patches, Pitted Surface, Rolled-in Scale, and Scratches. The data was organized into a class-specific folder structure (data/train/Crazing, data/train/Inclusion, etc.), a standard practice for image classification tasks with Keras.
